@@ -1,0 +1,12 @@
+{
+  "ConnectionStrings": {
+    "RabbitMQ": "amqp://localhost",
+    "SeqServer": "http://localhost:5341",
+    "Database": "Persist Security Info=False;User ID=Rebus;Password=Rebus;Initial Catalog=Rebus;Data Source=."
+  },
+  "AppSettings": {
+    "Environment": "Development",
+    "SystemName": "DcMessenger.SDK",
+    "PublisherQueue": "RebusSagaTestPublisherQueue"
+  }
+}
